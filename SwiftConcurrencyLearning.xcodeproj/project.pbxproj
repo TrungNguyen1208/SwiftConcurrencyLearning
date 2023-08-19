@@ -11,6 +11,9 @@
 		016FB5DC2A8BC5D900CEF492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016FB5DB2A8BC5D900CEF492 /* ContentView.swift */; };
 		016FB5DE2A8BC5DA00CEF492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016FB5DD2A8BC5DA00CEF492 /* Assets.xcassets */; };
 		016FB5E12A8BC5DA00CEF492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016FB5E02A8BC5DA00CEF492 /* Preview Assets.xcassets */; };
+		016FB5E82A8BC7E400CEF492 /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016FB5E72A8BC7E400CEF492 /* DoCatchTryThrowsBootcamp.swift */; };
+		016FB5EA2A8C839300CEF492 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016FB5E92A8C839300CEF492 /* DownloadImageAsync.swift */; };
+		017D17A92A90E832003FAEFB /* DownloadImageAsyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017D17A82A90E832003FAEFB /* DownloadImageAsyncViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		016FB5DB2A8BC5D900CEF492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		016FB5DD2A8BC5DA00CEF492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016FB5E02A8BC5DA00CEF492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		016FB5E72A8BC7E400CEF492 /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
+		016FB5E92A8C839300CEF492 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		017D17A82A90E832003FAEFB /* DownloadImageAsyncViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,12 @@
 		016FB5D82A8BC5D900CEF492 /* SwiftConcurrencyLearning */ = {
 			isa = PBXGroup;
 			children = (
+				017D17A72A90C40E003FAEFB /* DownloadImage */,
 				016FB5D92A8BC5D900CEF492 /* SwiftConcurrencyLearningApp.swift */,
 				016FB5DB2A8BC5D900CEF492 /* ContentView.swift */,
 				016FB5DD2A8BC5DA00CEF492 /* Assets.xcassets */,
 				016FB5DF2A8BC5DA00CEF492 /* Preview Content */,
+				016FB5E72A8BC7E400CEF492 /* DoCatchTryThrowsBootcamp.swift */,
 			);
 			path = SwiftConcurrencyLearning;
 			sourceTree = "<group>";
@@ -65,6 +73,15 @@
 				016FB5E02A8BC5DA00CEF492 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		017D17A72A90C40E003FAEFB /* DownloadImage */ = {
+			isa = PBXGroup;
+			children = (
+				016FB5E92A8C839300CEF492 /* DownloadImageAsync.swift */,
+				017D17A82A90E832003FAEFB /* DownloadImageAsyncViewModel.swift */,
+			);
+			path = DownloadImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016FB5EA2A8C839300CEF492 /* DownloadImageAsync.swift in Sources */,
+				016FB5E82A8BC7E400CEF492 /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				016FB5DC2A8BC5D900CEF492 /* ContentView.swift in Sources */,
+				017D17A92A90E832003FAEFB /* DownloadImageAsyncViewModel.swift in Sources */,
 				016FB5DA2A8BC5D900CEF492 /* SwiftConcurrencyLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
